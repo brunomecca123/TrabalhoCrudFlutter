@@ -1,0 +1,9 @@
+C:/TrabalhoCrudFlutter/trabalhocrud/build/windows/runner/Debug/data/icudtl.dat
+C:/TrabalhoCrudFlutter/trabalhocrud/build/windows/runner/Debug/flutter_windows.dll
+C:/TrabalhoCrudFlutter/trabalhocrud/build/windows/runner/Debug/data/flutter_assets/AssetManifest.bin
+C:/TrabalhoCrudFlutter/trabalhocrud/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/TrabalhoCrudFlutter/trabalhocrud/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+C:/TrabalhoCrudFlutter/trabalhocrud/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/TrabalhoCrudFlutter/trabalhocrud/build/windows/runner/Debug/data/flutter_assets/NOTICES
+C:/TrabalhoCrudFlutter/trabalhocrud/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/TrabalhoCrudFlutter/trabalhocrud/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

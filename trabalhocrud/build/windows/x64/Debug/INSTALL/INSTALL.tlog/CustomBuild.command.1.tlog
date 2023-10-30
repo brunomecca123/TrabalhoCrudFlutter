@@ -1,0 +1,10 @@
+^C:\TRABALHOCRUDFLUTTER\TRABALHOCRUD\BUILD\WINDOWS\CMAKEFILES\83F5C8C0BBDF772432324400AA55CC68\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
