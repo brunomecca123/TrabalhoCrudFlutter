@@ -22,10 +22,11 @@ class MyApp extends StatelessWidget {
         title: 'TRABALHO CRUD',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSwatch(
-            primarySwatch: Colors.red, // Altere a cor conforme necessário
+            primarySwatch:
+                Colors.lightGreen, // Altere a cor conforme necessário
           ),
           scaffoldBackgroundColor:
-              Colors.red[800], // Define o fundo cinza chumbo
+              Colors.lightGreen, // Define o fundo cinza chumbo
           // Outras definições de tema
         ),
         routes: {

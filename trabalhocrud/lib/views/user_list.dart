@@ -11,7 +11,8 @@ class UserList extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Lista de Usuário'),
+        title: const Text('Listagem'),
+        centerTitle: true,
       ),
       body: Column(
         children: [
@@ -27,7 +28,11 @@ class UserList extends StatelessWidget {
               onPressed: () {
                 Navigator.of(context).pushNamed(AppRoutes.USER_FORM);
               },
-              child: Text('Adicionar Usuário'),
+              child: Text(
+                'Adicionar Usuário',
+                style: TextStyle(
+                    fontWeight: FontWeight.bold), // Deixa o texto em negrito
+              ),
             ),
           ),
         ],

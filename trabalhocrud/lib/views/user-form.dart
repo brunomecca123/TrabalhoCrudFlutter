@@ -12,7 +12,7 @@ class UserForm extends StatelessWidget {
       _formData['id'] = user.id;
       _formData['name'] = user.name;
       _formData['email'] = user.email;
-      _formData['telefone'] = user.telefone; // Adicionado campo de telefone
+      _formData['telefone'] = user.telefone;
     }
   }
 
@@ -26,7 +26,8 @@ class UserForm extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Formulário de Usuário'),
+        title: const Text('Formulário de Cadastro'),
+        centerTitle: true,
       ),
       body: Padding(
         padding: const EdgeInsets.all(15),
@@ -68,7 +69,11 @@ class UserForm extends StatelessWidget {
                   );
                   Navigator.of(context).pop();
                 },
-                child: Text('Salvar'),
+                child: Text(
+                  'Salvar',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold), // Deixa o texto em negrito
+                ),
               ),
             ],
           ),
